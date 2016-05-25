@@ -40,3 +40,16 @@ footer{
   height: 100px;
   color: white;
 }
+
+/*MEDIA QUERIES*/
+@media screen and (min-width : 768px) {
+  .header{
+    background-color: gold;
+  }
+}
+
+@media screen and (min-width : 375px) {
+  .nav{
+    background-color: gray;
+  }
+}
